@@ -148,14 +148,15 @@ h3{
   }
   @media (max-width: 600px){
     #emp-list{
-        margin-top: 0px;
-        margin-left: 0px;
+        margin-top: 20px;
+        margin-left: 20px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
+        overflow-x: auto;
     }
     .item{
-        width: 100%;
+        min-width: 350px;
         height: 150px;
         display: flex;
         flex-direction: column;
